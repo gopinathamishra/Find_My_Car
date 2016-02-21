@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Find My Car</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+<string name="select">Select</string>
+        <string-array name="floor_array">
+            <item>0</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        
+        
+    </string-array>
+    
+        
+       
+        <string-array name="unit_array">
+        <item>Metres</item>
+        <item>Feets</item>
+        <item>Yards</item>
+        <item>Kilometers</item>
+        <item>Miles</item>
+        
+       
+        
+       
+        
+        
+    </string-array>
+    
+</resources>

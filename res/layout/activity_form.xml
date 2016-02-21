@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter parking floor: "/>
+    
+    <Spinner 
+        android:id="@+id/floor_spin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/floor_array"
+        android:prompt="@string/select" />
+    
+        <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter notes (if any): "/>
+        
+        <EditText
+            android:id="@+id/note_edt" 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="5"/>
+        <Button 
+            android:id="@+id/proceed_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Park" />
+    
+
+</LinearLayout>

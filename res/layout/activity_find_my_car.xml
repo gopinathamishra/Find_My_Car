@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.askgxm.findmycar.www.FindMyCar"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="10">
+<fragment
+          android:id="@+id/map"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:name="com.google.android.gms.maps.MapFragment"/>
+
+</LinearLayout>
+
+<LinearLayout 
+    android:id="@+id/instruction_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    android:orientation="horizontal"
+    android:visibility="visible"
+    android:background="#000000">
+        <TextView
+            
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            
+            android:gravity="center"
+            android:text="To park, click on 'P' icon"
+            android:textColor="#FFFFFF"/> 
+    
+</LinearLayout>
+<LinearLayout 
+    android:id="@+id/information_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    android:orientation="horizontal">
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:background="#000000">
+        
+        
+        <TextView
+            android:id="@+id/address_txt" 
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="#FFFFFF"/>   
+            
+         <TextView
+            android:id="@+id/time_txt" 
+            android:layout_width="fill_parent"
+             android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="#FFFFFF"/>    
+            
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#2A2A2A">
+                <TextView
+                    android:id="@+id/distance_txt" 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#FFFFFF"/>      
+    </LinearLayout>
+    
+</LinearLayout>
+
+</LinearLayout>

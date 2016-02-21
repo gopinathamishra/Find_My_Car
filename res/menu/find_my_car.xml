@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.askgxm.findmycar.www.FindMyCar" >
+    
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+
+     <item
+        android:id="@+id/action_park"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/pblack"
+        android:title="action_park"
+        />
+    
+     <item
+        android:id="@+id/action_navigate"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/directions"
+        android:title="action_navigate"
+        android:visible="false"/>
+      <item
+        android:id="@+id/action_centre"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/centre"
+        android:title="action_centre"
+        android:visible="true"/>
+       <item
+        android:id="@+id/action_units"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ruler"
+        android:title="action_centre"
+        android:visible="true"/>
+
+</menu>
